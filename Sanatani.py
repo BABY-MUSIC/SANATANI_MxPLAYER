@@ -82,9 +82,9 @@ if os.path.exists("Config.env"):
 
 API_ID = int(getenv("API_ID", "16457832"))
 API_HASH = getenv("API_HASH", "3030874d0befdb5d05597deacc3e83ab")
-BOT_TOKEN = getenv("BOT_TOKEN", "7000859933:AAHcKE9cW4XNmPiBau4kXfmPzlvovlvfyN8")
-STRING_SESSION = getenv("STRING_SESSION", "BQD7IGgAqumh8NZU0VMLnkldy4iJRcgPv9EljKEZg1yZdm79J_IHdMAPg5wfjg5N5dBuieGKapL1c9LkWrsSSpRUFjjpps8yVHI710_yt2FdMMCP716JMndNRzclV6PHfg07jlcAjThLZe_CrmZ5JJ4yZGd2Zd31LIwFmglsqXFgNGPZ9AK2ntYl-gilYpIKpYC48JmCpKYRXmB94NjLESNggAIEppACt_MyN0p9Qj5UvMR-vpQ5jAwaDVzNHAKvH5fW4rngfai3R58UH1XsQ6lSKqkaD55QEP6_ldO1JGyqEvf06U3IzdCynqKTRshXgUZygFnfNAY9rJG-YSOH4oJyAovwQQAAAAHee6C2AA")
-MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority")
+BOT_TOKEN = getenv("BOT_TOKEN", "7000859933:")
+STRING_SESSION = getenv("STRING_SESSION", "-gilYpIKpYC48JmCpKYRXmB94NjLESNggAIEppACt_MyN0p9Qj5UvMR-vpQ5jAwaDVzNHAKvH5fW4rngfai3R58UH1XsQ6lSKqkaD55QEP6_ldO1JGyqEvf06U3IzdCynqKTRshXgUZygFnfNAY9rJG-YSOH4oJyAovwQQAAAAHee6C2AA")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://:.mongodb.net/?retryWrites=true&w=majority")
 OWNER_ID = int(getenv("OWNER_ID", "6657539971"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002014882444"))
 START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/3o7nd8.mp4")
